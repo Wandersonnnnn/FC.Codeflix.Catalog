@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FC.Codeflix.Catalog.Application/FC.Codeflix.Catalog.Application.csproj" Id="ccc30f94-5b73-4a42-afdc-8813d7d85f9f" />
+    <Project Path="src/FC.Codeflix.Catalog.Domain/FC.Codeflix.Catalog.Domain.csproj" Id="7fd21308-27ec-41a0-ac49-3ee68b8c3072" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FC.Codeflix.Catalog.UnitTests/FC.Codeflix.Catalog.UnitTests.csproj" />
+  </Folder>
+</Solution>
