@@ -484,6 +484,9 @@
       "FC.Codeflix.Catalog.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "FC.Codeflix.Catalog.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/FC.Codeflix.Catalog.Application.dll": {}
         },
@@ -1212,23 +1215,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wande\\.nuget\\packages\\": {},
+    "C:\\Users\\wandersonss\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
+      "projectUniqueName": "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
       "projectName": "FC.Codeflix.Catalog.UnitTests",
-      "projectPath": "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\wande\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\obj\\",
+      "projectPath": "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\wandersonss\\.nuget\\packages\\",
+      "outputPath": "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\tests\\FC.Codeflix.Catalog.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wandersonss\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1243,11 +1246,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj": {
-              "projectPath": "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj"
+            "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj": {
+              "projectPath": "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Application\\FC.Codeflix.Catalog.Application.csproj"
             },
-            "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj": {
-              "projectPath": "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj"
+            "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj": {
+              "projectPath": "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj"
             }
           }
         }

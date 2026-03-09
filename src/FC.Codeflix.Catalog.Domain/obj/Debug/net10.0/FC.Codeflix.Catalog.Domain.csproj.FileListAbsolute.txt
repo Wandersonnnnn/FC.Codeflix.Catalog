@@ -20,3 +20,4 @@ C:\Users\wande\OneDrive\Estudos\Full Cycle 4.0\Admin catalogo de vídeo - Codefl
 C:\Users\wande\OneDrive\Estudos\Full Cycle 4.0\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\FC.Codeflix.Catalog\src\FC.Codeflix.Catalog.Domain\obj\Debug\net10.0\refint\FC.Codeflix.Catalog.Domain.dll
 C:\Users\wande\OneDrive\Estudos\Full Cycle 4.0\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\FC.Codeflix.Catalog\src\FC.Codeflix.Catalog.Domain\obj\Debug\net10.0\FC.Codeflix.Catalog.Domain.pdb
 C:\Users\wande\OneDrive\Estudos\Full Cycle 4.0\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\FC.Codeflix.Catalog\src\FC.Codeflix.Catalog.Domain\obj\Debug\net10.0\ref\FC.Codeflix.Catalog.Domain.dll
+C:\Devops\REPOSITORIOS\FC.Codeflix.Catalog\src\FC.Codeflix.Catalog.Domain\obj\Debug\net10.0\FC.Codeflix.Catalog.Domain.sourcelink.json

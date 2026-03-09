@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\wande\\.nuget\\packages\\": {},
+    "C:\\Users\\wandersonss\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj",
+      "projectUniqueName": "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj",
       "projectName": "FC.Codeflix.Catalog.Domain",
-      "projectPath": "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj",
-      "packagesPath": "C:\\Users\\wande\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wande\\OneDrive\\Estudos\\Full Cycle 4.0\\Admin catalogo de vídeo - Codeflix - .NET (Back-end)\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\obj\\",
+      "projectPath": "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\FC.Codeflix.Catalog.Domain.csproj",
+      "packagesPath": "C:\\Users\\wandersonss\\.nuget\\packages\\",
+      "outputPath": "C:\\Devops\\REPOSITORIOS\\FC.Codeflix.Catalog\\src\\FC.Codeflix.Catalog.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wandersonss\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
