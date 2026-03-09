@@ -33,9 +33,14 @@ bld/
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 
+# Build outputs
+**/[Bb]in/
+**/[Oo]bj/
+
 # Rider
 .idea/
 *.sln.iml
+.run/
 
 # Visual Studio Code
 .vscode/
@@ -43,6 +48,8 @@ bld/
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
+TestResults/
+*.trx
 
 # NUnit
 *.VisualState.xml
@@ -379,6 +386,7 @@ FodyWeavers.xsd
 
 # Local History for Visual Studio Code
 .history/
+**/Properties/launchSettings.json
 
 # Windows Installer files from build outputs
 *.cab
@@ -395,3 +403,11 @@ FodyWeavers.xsd
 .env
 .env.*
 !.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+docker-compose.override.yml
