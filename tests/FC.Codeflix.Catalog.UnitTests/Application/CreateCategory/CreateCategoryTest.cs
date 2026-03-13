@@ -7,17 +7,21 @@ using UseCases = FC.Codeflix.Catalog.Application.UseCases.Category.CreateCategor
 
 namespace FC.Codeflix.Catalog.UnitTests.Application.CreateCategory;
 
-public class CreateCategoryTest {
+[Collection(nameof(CreateCategoryTestFixture))]
+public class CreateCategoryTest( CreateCategoryTestFixture fixture) {
 
     [Fact(DisplayName = nameof(CreateCategory))]
     [Trait("Application", "CreateCategory - Use Cases")]
     public async void CreateCategory() {
 
-        var respositoryMock = new Mock<ICategoryRepository>();
-        var unitOfWorkMock = new Mock<IUnitOfWork>();
-        var useCase = new UseCases.CreateCategory(respositoryMock.Object, unitOfWorkMock.Object);
+        var respositoryMock = fixture.GetRepositoryMock();
+        var unitOfWorkMock = fixture.GetUnitOfWorkMock();
 
-        var input = new UseCases.CreateCategoryInput(name: "Category Name", description: "Category Description", isActive: true);
+        //var useCase = new UseCases.CreateCategory("Category Name", "Description Name", true);
+        var useCase = new UseCases.CreateCategory(respositoryMock.Object, unitOfWorkMock.Object); // ICategoryRepository (mockado) // IUnitOfWork (mockado)
+
+        //var input = new UseCases.CreateCategoryInput(name: "Category Name", description: "Category Description", isActive: true);
+        var input = fixture.GetInput();
 
         var output = await useCase.Handle(input, CancellationToken.None);
 
@@ -25,9 +29,9 @@ public class CreateCategoryTest {
         unitOfWorkMock.Verify(unitOfWork => unitOfWork.Commit(It.IsAny<CancellationToken>()), Times.Once); // Verifica se o método "Commit" do unit of work foi chamado exatamente uma vez.
 
         output.Should().NotBeNull();
-        output.Name.Should().Be("Category Name");
-        output.Description.Should().Be("Category Description");
-        output.IsActive.Should().BeTrue();
+        output.Name.Should().Be(input.Name);
+        output.Description.Should().Be(input.Description);
+        output.IsActive.Should().Be(input.IsActive);
         output.Id.Should().NotBeEmpty();
         output.CreatedAt.Should().NotBe(default(DateTime));
     }
